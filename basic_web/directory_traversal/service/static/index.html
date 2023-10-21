@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search Page</title>
+		<style>
+			.search-container {
+				text-align: center;
+				padding: 20px;
+			}
+
+			input[type="text"] {
+				width: 60%;
+				padding: 10px;
+			}
+
+			button {
+				padding: 10px 20px;
+				background-color: #007bff;
+				color: #fff;
+				border: none;
+				cursor: pointer;
+			}
+
+			button:hover {
+				background-color: #0056b3;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Search for a File</h1>
+		<div class="search-container">
+			<input
+				type="text"
+				id="searchInput"
+				placeholder="Enter a file name..."
+			/>
+			<button id="searchButton">Search</button>
+		</div>
+		<div id="searchResults"></div>
+
+		<script>
+			const searchInput = document.getElementById("searchInput");
+			const searchButton = document.getElementById("searchButton");
+			const searchResults = document.getElementById("searchResults");
+
+			searchButton.addEventListener("click", () => {
+				const fileName = searchInput.value;
+				if (fileName) {
+					const fileURL = `/search?page=${fileName}`;
+					searchResults.innerHTML = `<a href="${fileURL}" target="_blank">View result for: ./static/${fileName}</a>`;
+				} else {
+					searchResults.innerHTML =
+						"Please enter a file name to search.";
+				}
+			});
+		</script>
+	</body>
+</html>
