@@ -4,4 +4,4 @@
 - **Author:** Lecia Wong
 
 ## Description
-To decode binary using 'CyberChef' to get the flag.
+To decode binary using `CyberChef` to get the flag.
