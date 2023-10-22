@@ -1,10 +1,10 @@
-# Using CyberChef_Decode Binary
+# Decode Binary
 
 ## Summary
 - **Author:** Lecia Wong
 
 ## Description
-To decode binary using `CyberChef` to get the flag. 
+To decode binary using online decoders to get the flag. 
 
 https://cyberchef.org/
 
