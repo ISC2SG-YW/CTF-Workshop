@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Account</title>
+	</head>
+	<body>
+		<h1>User Account</h1>
+		<p>Welcome, {{ user['username'] }}</p>
+
+		<h3>Account Information</h3>
+		<ul>
+			<li>User ID: {{ user['id'] }}</li>
+			<li>Username: {{ user['username'] }}</li>
+			<li>Flag: {{ user['flag'] }}</li>
+		</ul>
+
+		<a href="{{ url_for('home') }}">Back to Home</a>
+	</body>
+</html>
