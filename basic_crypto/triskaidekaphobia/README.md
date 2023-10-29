@@ -1,4 +1,4 @@
-# triskaidekaphobia
+# Triskaidekaphobia
 
 ## Summary
 - **Author:** Lecia Wong
