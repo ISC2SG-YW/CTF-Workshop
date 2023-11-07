@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web1:
+    build: ./basic_web/directory_traversal/service/
+    ports:
+      - "8000:8000"
+    restart: always
+    container_name: easy_web_1
+
+  web2:
+    build: ./basic_web/idor/service/
+    ports:
+      - "8001:8000"
+    restart: always
+    container_name: easy_web_2
+
