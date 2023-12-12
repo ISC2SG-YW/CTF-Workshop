@@ -23,4 +23,4 @@ RUN chmod -R 500 /home/isc2_user
 RUN mkdir /var/run/sshd
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
 EXPOSE 22
-CMD service ssh start && su isc2_user
+CMD service ssh start && su isc2_user -c "bash"
