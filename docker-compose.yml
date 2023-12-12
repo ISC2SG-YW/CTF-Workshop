@@ -15,6 +15,13 @@ services:
     restart: always
     container_name: easy_web_2
   
+  web3:
+    build: ./extra_chals/sequel/service/
+    ports:
+      - "8002:1337"
+    restart: always
+    container_name: easy_web_3
+  
   linux1:
     build: ./extra_chals/shadow/service/
     ports:
@@ -22,5 +29,5 @@ services:
     restart: always
     container_name: easy_linux_1
   
-  
+
 
