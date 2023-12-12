@@ -18,4 +18,3 @@ RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/s
 EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]
-CMD service ssh start && tail -f /dev/null
