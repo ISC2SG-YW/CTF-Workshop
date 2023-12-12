@@ -21,12 +21,4 @@ services:
       - "8002:1337"
     restart: always
     container_name: easy_web_3
-  
-  linux1:
-    build: ./extra_chals/shadow/service/
-    ports:
-      - "9022:22"
-    container_name: easy_linux_1
-  
-
 
