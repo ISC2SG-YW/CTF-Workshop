@@ -28,4 +28,11 @@ services:
       - "8003:1337"
     restart: always
     container_name: easy_web_4
+  
+  web5:
+    build: ./extra_chals/trivia
+    ports:
+      - "8004:1337"
+    restart: always
+    container_name: easy_web_5
 
