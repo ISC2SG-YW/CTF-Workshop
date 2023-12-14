@@ -15,8 +15,8 @@ def file():
     path = request.args.get('path')
     print(path)
     if path:
-        if "/" in path or ".." in path:
-            return "Error: Hey, no cheating."
+        if ".." in path:
+            return "Hey, that's a bad character!!"
         try:
             with open(path, 'r') as f:
                 file_contents = f.read()
