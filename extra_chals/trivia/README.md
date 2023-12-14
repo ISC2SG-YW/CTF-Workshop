@@ -17,5 +17,5 @@ Jason's Web Trivia
 
 ## Flag
 ```
-YCEP2023{D1d_y0u_M34n_j4y50n_w3B_t0k3ns???}
+ISC2CTF{D1d_y0u_M34n_j4y50n_w3B_t0k3ns???}
 ```
