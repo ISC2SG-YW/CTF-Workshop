@@ -22,3 +22,10 @@ services:
     restart: always
     container_name: easy_web_3
 
+  web4: 
+    build: ./extra_chals/traveller
+    ports:
+      - "8003:1337"
+    restart: always
+    container_name: easy_web_4
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my Website</title>
+	<style>
+		body {
+			background-color: #ffc107;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 4em;
+			margin-top: 100px;
+		}
+		
+		p {
+			font-size: 2em;
+			margin-top: 50px;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to my website!</h1>
+	<p>Unfortunately, it's still under construction...</p>
+	<img src="https://media.giphy.com/media/Nx0rz3jtxtEre/giphy.gif" alt="Under Construction">
+    
+	<!--
+        TODO:
+        - fix '/file?path' endpoint
+        - add more pages
+        - remove flag.txt
+    -->
+	<p>I do, however, have a feature that's pretty cool!</p>
+	<form method="get" action="/file">
+        <label for="path">Search: </label>
+        <input type="text" name="path" id="path">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
