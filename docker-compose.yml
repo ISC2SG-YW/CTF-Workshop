@@ -30,7 +30,7 @@ services:
     container_name: easy_web_4
   
   web5:
-    build: ./extra_chals/trivia
+    build: ./extra_chals/trivia/service/
     ports:
       - "8004:1337"
     restart: always
