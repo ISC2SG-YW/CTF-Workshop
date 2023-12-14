@@ -1,0 +1,7 @@
+binary to text the entire convo
+one of them contains the string: 
+
+Hmm.. you're right. Alright, here's the encrypted password: VFP2PGS{7U3_Y4A6H463_0S_P0ZCH73E5}
+You'll have to decrypt it by yourself to get the original password.
+
+VFP2PGS{7U3_Y4A6H463_0S_P0ZCH73E5} rot13 = ISC2CTF{7H3_L4N6U463_0F_C0MPU73R5}
